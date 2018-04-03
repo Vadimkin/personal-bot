@@ -1,0 +1,5 @@
+import os
+
+TELEGRAM_TOKEN = 'XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXX'
+IMAGES_UPLOAD_DIR = os.path.join(os.path.dirname(__file__), 'media')
+SCREENSHOT_HOST = 'https://domain.com/screenshots/'
