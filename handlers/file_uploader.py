@@ -22,4 +22,8 @@ def file_handler(bot, update):
 
     file_url = get_full_url(filename)
 
-    bot.send_message(chat_id=update.message.chat_id, text=f"Uploaded! {file_url}")
+    bot.send_message(
+        chat_id=update.message.chat_id,
+        text=f"Uploaded!\n{file_url}",
+        disable_web_page_preview=True
+    )
