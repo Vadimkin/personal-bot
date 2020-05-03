@@ -195,3 +195,4 @@ pip-selfcheck.json
 
 media/*
 /config.py
+/worker/config.py

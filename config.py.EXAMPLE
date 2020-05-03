@@ -1,5 +1,13 @@
 import os
 
 TELEGRAM_TOKEN = 'XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXX'
+TELEGRAM_FORBIDDEN_STICKER_ID = 'CAACAgIAAxkBAAIBNV6u0qGwomMfu5vMVNprXPmlnoXVAAJHdAACns4LAAE_ObRAtER3bRkE'
+TELEGRAM_GOD_ID = 894082
+
 IMAGES_UPLOAD_DIR = os.path.join(os.path.dirname(__file__), 'media')
+
 SCREENSHOT_HOST = 'https://domain.com/screenshots/'
+
+# token_v2 from notion string
+NOTION_TOKEN = "XXXXXX"
+NOTION_INBOX_URI = "https://www.notion.so/XXX/XXX"
