@@ -15,7 +15,7 @@ def notion_inbox_handler(update, context):
 
     inbox_page = client.get_block(config.NOTION_INBOX_URI)
 
-    success_message = f"✅ Додано в #{inbox_page.title_plaintext}\! [Переглянути]({config.NOTION_INBOX_URI})"
+    success_message = f"✅ Додано в {inbox_page.title_plaintext}\! [Переглянути]({config.NOTION_INBOX_URI})"
 
     if is_url(message) and message.startswith('https://twitter.com'):
         tweet_url = message.strip()
