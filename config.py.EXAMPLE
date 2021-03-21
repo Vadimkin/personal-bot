@@ -8,6 +8,6 @@ IMAGES_UPLOAD_DIR = os.path.join(os.path.dirname(__file__), 'media')
 
 SCREENSHOT_HOST = 'https://domain.com/screenshots/'
 
-# token_v2 from notion string
-NOTION_TOKEN = "XXXXXX"
-NOTION_INBOX_URI = "https://www.notion.so/XXX/XXX"
+WORKFLOWY_SESSION_ID = ""
+WORKFLOWY_NODE_UUID = ""
+WORKFLOWY_INBOX_URI = f"https://workflowy.com/#/{WORKFLOWY_NODE_UUID}"
